@@ -79,8 +79,11 @@ print("{:^20}".format(first))
 # percentage {:%} {:.2}
 # scientific notation {:e} {:.2e}
 print("{:.2e}".format(2338972983468980317401983))
-avogadros_number = 6.022e23
+avogadros_number = 6.022E23
 # leading zero for other (or other placeholder, I suppose) {:05}
 print("{:0002}".format(243))
 # don't screw up
 print("${:.2f}".format(142.3))
+
+# repository, master, clone, commit, pull (update), push, head
+# what if GitHub was like Google Docs
