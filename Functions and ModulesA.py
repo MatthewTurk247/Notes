@@ -29,6 +29,7 @@ if __name__ == "__main__":
     print(pi, e)
     print(log(100000, 10))
     print(square_cube(7)[0], square_cube(7)[1])
+    my_function(name="Matthew")
 
 # scope rules:
 # python (ex. __main__) - the ones that belong to the language...don't mess with these...
