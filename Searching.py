@@ -91,4 +91,3 @@ for line in file:
         all_words.append(word)
 
 print(all_words)
-# change
